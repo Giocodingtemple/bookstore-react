@@ -1,19 +1,20 @@
-import Navbar from '../components/NavBar'
-import Books from '../components/Books';
-import BookList from '../components/BookList';
-import BookBrowser from '../components/BookBrowser';
-import { Router, Route, Switch } from '@mui/icons-material';
+import Navbar from './components/NavBar'
+import Books from './components/Books';
+import SingleBook from './components/SingleBook';
+import LoginForm from './forms/LoginForm';
+import RegisterForm from './forms/RegisterForm';
+import EditUserForm from './forms/EditUserForm';
+import Login from './veiws/Login';
+import Register from './veiws/Register';
+import EditUser from './veiws/EditUser';
+import HomePage from './views/HomePage';
+
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Books} />
-        <Route path="/about" component={BookList} />
-        <Route path="/contact" component={BookBrowser} />
-      </Switch>
-    </Router>
+    <Navbar>
+      <src/>
+    </Navbar>
   );
 }
 export default App;

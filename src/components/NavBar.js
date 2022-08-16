@@ -43,8 +43,8 @@ function Navbar() {
             <Link to="/" className={classes.link}>
               Home
             </Link>
-            <Link to="/about" className={classes.link}>
-              About
+            <Link to="/Books" className={classes.link}>
+              Books
             </Link>
             <Link to="/contact" className={classes.link}>
               Contact

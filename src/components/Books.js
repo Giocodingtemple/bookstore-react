@@ -53,18 +53,18 @@ const book5 ={
     img: "https://res.cloudinary.com/dentfkaun/image/upload/v1654121085/514FVxjwwGL_zfrowq.jpg",
     author_first: "Amy",
     author_last: "Poehler"
-  }
+}
 
-  const book6 ={
-    id: 6,
-    title: "One More Thing",
-    subject: "fiction",
-    summary: "Short fantastical stories",
-    pages: 272, 
-    img: "https://res.cloudinary.com/dentfkaun/image/upload/v1654121216/7101-HAlNXL_caam6w.jpg",
-    author_first: "B.J.",
-    author_last: "Novak"
-  }
+const book6 ={
+  id: 6,
+  title: "One More Thing",
+  subject: "fiction",
+  summary: "Short fantastical stories",
+  pages: 272, 
+  img: "https://res.cloudinary.com/dentfkaun/image/upload/v1654121216/7101-HAlNXL_caam6w.jpg",
+  author_first: "B.J.",
+  author_last: "Novak"
+}
 
 
 
