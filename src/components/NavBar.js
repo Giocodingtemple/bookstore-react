@@ -201,7 +201,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
                 :
                 <Typography color="secondary" sx={{pl:2,pr:2, fontFamily:"Lato, sans-serif"}}>
-                Welcome to JBC!
+                Welcome to GBETI!
                 </Typography>
               }
 
